@@ -1,13 +1,22 @@
 import React from "react";
 import "./About.css";
 import image from "../img/myPhoto3.jpg";
+import CV from "../img/CV.pdf";
 
 const About = () => {
   return (
     <div className="about">
       <div className="about-me">
         <img src={image} className="my-photo" />
-        <h1>Who am I?</h1>
+        <div className="cv-container">
+          <button className="cv-button">
+            <a target="_blank" href={CV}>
+              MY C.V :)
+            </a>
+          </button>
+
+          <h1>Who am I?</h1>
+        </div>
       </div>
 
       <blockquote>

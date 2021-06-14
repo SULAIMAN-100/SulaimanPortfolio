@@ -28,44 +28,47 @@ function Projects() {
         </div>
       </div>
       <div className="project-demo">
-        <h2>TV Show Dom Project</h2>
+        <h2>CYF-Hotel App</h2>
         <div className="player-wrapper">
           <ReactPlayer
             className="react-player"
-            url="https://youtu.be/UDtHvX_MrsQ"
+            url="https://youtu.be/itklyAIcbDY"
             width="100%"
             height="100%"
           />
         </div>
         <div className="vid-buttons">
-          <a target="_blank" href="https://cyf-sulaiman-100-tv.netlify.app/">
-            <button>TV Show Link</button>
+          <a
+            target="_blank"
+            href="https://sulaiman-cyf-hotel-project.netlify.app"
+          >
+            <button>App Link</button>
           </a>
           <a
             target="_blank"
-            href="https://github.com/SULAIMAN-100/tv-show-dom-project"
+            href="https://github.com/SULAIMAN-100/cyf-hotel-react"
           >
             <button>Source Code</button>
           </a>
         </div>
       </div>
       <div className="project-demo">
-        <h2>TV Show Dom Project</h2>
+        <h2>Feedback Tracker App</h2>
         <div className="player-wrapper">
           <ReactPlayer
             className="react-player"
-            url="https://youtu.be/UDtHvX_MrsQ"
+            url="https://youtu.be/zsR5cW5MiAE"
             width="100%"
             height="100%"
           />
         </div>
         <div className="vid-buttons">
-          <a target="_blank" href="https://cyf-sulaiman-100-tv.netlify.app/">
-            <button>TV Show Link</button>
+          <a target="_blank" href="https://feedback-compass.herokuapp.com/">
+            <button>App Link</button>
           </a>
           <a
             target="_blank"
-            href="https://github.com/SULAIMAN-100/tv-show-dom-project"
+            href="https://github.com/SULAIMAN-100/Feedback-Compass"
           >
             <button>Source Code</button>
           </a>

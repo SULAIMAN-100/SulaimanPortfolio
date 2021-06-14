@@ -48,3 +48,31 @@ blockquote p {
   border: 3px solid rgba(255, 166, 0, 0.815);
   box-shadow: 0px 10px 5px grey;
 }
+
+.cv-button {
+  padding: 10px 30px 10px 30px;
+  background-color: rgb(255, 166, 0);
+  border: 3px solid rgb(255, 255, 255);
+  border-radius: 10px;
+  transition: 0.3s;
+}
+.cv-button:hover {
+  background-color: rgb(255, 184, 30);
+  padding: 12px 32px 10px 32px;
+  box-shadow: 0px 10px 5px rgb(0, 0, 0);
+}
+
+.cv-button a {
+  text-decoration: none;
+  font-size: 20px;
+  font-family: cursive;
+  font-weight: 800;
+  color: rgb(60, 64, 88);
+}
+
+.cv-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+}
