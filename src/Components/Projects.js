@@ -17,13 +17,35 @@ function Projects() {
         </div>
         <div className="vid-buttons">
           <a target="_blank" href="https://cyf-sulaiman-100-tv.netlify.app/">
-            <button>TV Show Link</button>
+            <button>App Link</button>
           </a>
           <a
             target="_blank"
             href="https://github.com/SULAIMAN-100/tv-show-dom-project"
           >
-            <button>Source Code</button>
+            <button>GitHub Code</button>
+          </a>
+        </div>
+      </div>
+      <div className="project-demo">
+        <h2>TV Show React.js Project</h2>
+        <div className="player-wrapper">
+          <ReactPlayer
+            className="react-player"
+            url="https://youtu.be/iyp5lesYD5k"
+            width="100%"
+            height="100%"
+          />
+        </div>
+        <div className="vid-buttons">
+          <a target="_blank" href="https://sulaiman-tv-show-react.netlify.app/">
+            <button>App Link</button>
+          </a>
+          <a
+            target="_blank"
+            href="https://github.com/SULAIMAN-100/TV-show-react"
+          >
+            <button>GitHub Code</button>
           </a>
         </div>
       </div>
@@ -48,7 +70,7 @@ function Projects() {
             target="_blank"
             href="https://github.com/SULAIMAN-100/cyf-hotel-react"
           >
-            <button>Source Code</button>
+            <button>GitHub Code</button>
           </a>
         </div>
       </div>
@@ -70,29 +92,32 @@ function Projects() {
             target="_blank"
             href="https://github.com/SULAIMAN-100/Feedback-Compass"
           >
-            <button>Source Code</button>
+            <button>GitHub Code</button>
           </a>
         </div>
       </div>
       <div className="project-demo">
-        <h2>TV Show Dom Project</h2>
+        <h2>Knowledge Checklist App</h2>
         <div className="player-wrapper">
           <ReactPlayer
             className="react-player"
-            url="https://youtu.be/UDtHvX_MrsQ"
+            url="https://youtu.be/E5hbsw1ZYI0"
             width="100%"
             height="100%"
           />
         </div>
         <div className="vid-buttons">
-          <a target="_blank" href="https://cyf-sulaiman-100-tv.netlify.app/">
-            <button>TV Show Link</button>
+          <a
+            target="_blank"
+            href="https://cyf-knowledge-checklist.herokuapp.com/"
+          >
+            <button>App Link</button>
           </a>
           <a
             target="_blank"
-            href="https://github.com/SULAIMAN-100/tv-show-dom-project"
+            href="https://github.com/CodeYourFuture/knowledge-checklist"
           >
-            <button>Source Code</button>
+            <button>GitHub Code</button>
           </a>
         </div>
       </div>
