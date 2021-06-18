@@ -4,7 +4,7 @@ import ReactPlayer from "react-player";
 
 function Projects() {
   return (
-    <div className="projects">
+    <div className="projects fadeIn">
       <div className="project-demo">
         <h2>TV Show Dom Project</h2>
         <div className="player-wrapper">

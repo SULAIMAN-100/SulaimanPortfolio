@@ -17,7 +17,7 @@ export function Home() {
   }, []);
 
   return (
-    <div className="home">
+    <div className="home fadeIn">
       <div className="content">
         <div className="summary">
           <h2>ARTS & TECH</h2>

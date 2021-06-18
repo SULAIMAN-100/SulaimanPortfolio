@@ -1,8 +1,40 @@
 .projects {
   display: flex;
+  align-items: center;
+  justify-content: center;
   flex-wrap: wrap;
-  margin-left: 20%;
+  background-repeat: no-repeat;
+  background-position: left top;
+  margin-bottom: 60px;
+  -webkit-animation-duration: 4s;
+  animation-duration: 4s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
 }
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.fadeIn {
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
+}
+
 .project-demo {
   display: flex;
   flex-direction: column;

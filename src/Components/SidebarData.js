@@ -24,10 +24,10 @@ export const SidebarData = [
     icon: <VscIcons.VscProject />,
     cName: "nav-text",
   },
-  {
-    title: "Contact",
-    path: "/contact",
-    icon: <MdIcons.MdPermContactCalendar />,
-    cName: "nav-text",
-  },
+  // {
+  //   title: "Contact",
+  //   path: "/contact",
+  //   icon: <MdIcons.MdPermContactCalendar />,
+  //   cName: "nav-text",
+  // },
 ];

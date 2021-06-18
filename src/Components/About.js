@@ -5,30 +5,32 @@ import CV from "../img/CV.pdf";
 
 const About = () => {
   return (
-    <div className="about">
-      <div className="about-me">
-        <img src={image} className="my-photo" />
-        <div className="cv-container">
-          <button className="cv-button">
-            <a target="_blank" href={CV}>
-              MY C.V :)
-            </a>
-          </button>
+    <div class="about-container">
+      <div class="about fadeIn">
+        <div className="about-me">
+          <img src={image} className="my-photo" />
+          <div className="cv-container">
+            <button className="cv-button">
+              <a target="_blank" href={CV}>
+                Download My Resume
+              </a>
+            </button>
 
-          <h1>Who am I?</h1>
+            <h1>Who am I?</h1>
+          </div>
         </div>
-      </div>
 
-      <blockquote>
-        I am a passionate junior full stack developer and a recent graduate of
-        the Code Your Future 2020 programme. I love problem solving, working in
-        teams and supporting my team mates to develop and grow. I have a long
-        standing interest in technology and how to apply technology to solve
-        business challenges. I am very ambitious to progress a career that
-        allows me opportunities to build on the broad technical skills I have
-        already developed whilst providing me with opportunities to further
-        develop and grow.{" "}
-      </blockquote>
+        <blockquote>
+          I am a passionate junior software developer who is fascinated by the
+          world's technology and inspired by its art and creativity. I love to
+          be like a bee in a hive living and grow in a collaborative
+          invironment. I have a long standing interest in technology and how to
+          apply technology to solve business challenges. I am very ambitious to
+          progress a career that allows me opportunities to build on the broad
+          technical skills I have already developed whilst providing me with
+          opportunities to further develop and grow.{" "}
+        </blockquote>
+      </div>
     </div>
   );
 };
