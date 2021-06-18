@@ -20,7 +20,7 @@ function Navbar() {
           <div className="features">
             {SidebarData.map((item, index) => {
               return (
-                <div key={index} className={item.cName} onClick={toggle}>
+                <div key={index} className={item.cName}>
                   <Link to={item.path}>
                     {item.icon}
                     <span>{item.title}</span>
