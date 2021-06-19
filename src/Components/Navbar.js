@@ -69,7 +69,7 @@ function Navbar() {
                       <a
                         rel="#"
                         target="_blank"
-                        href="mailto:sulaimansolo73505@gmail.com.com"
+                        href="mailto:sulaimansolo73505@gmail.com"
                       >
                         sulaimansolo73505@gmail.com
                       </a>
