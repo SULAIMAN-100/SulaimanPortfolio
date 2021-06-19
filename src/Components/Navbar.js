@@ -69,7 +69,7 @@ function Navbar() {
                       <a
                         rel="#"
                         target="_blank"
-                        href="mailto:suliamnsolo73505@gmail.com?subject = Feedback&body = Message"
+                        href="mailto:sulaimansolo73505@gmail.com.com"
                       >
                         sulaimansolo73505@gmail.com
                       </a>
