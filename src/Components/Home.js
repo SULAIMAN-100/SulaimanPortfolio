@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import { Link, Route } from "react-router-dom";
 
 import "./Home.css";
 
@@ -23,9 +24,9 @@ export function Home() {
           <h2>Hello 😎 I am Sulaiman</h2>
 
           <h4>A Gradute Full-stack Developer</h4>
-          <a href="/about">
+          <Link to="/about">
             <button className="more-btn">Read More About Me</button>
-          </a>
+          </Link>
         </div>
         <div className="fulltime">
           <div className="time"> {time}</div>
