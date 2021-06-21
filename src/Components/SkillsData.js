@@ -14,6 +14,10 @@ export const SkillsData = [
     value: "80",
   },
   {
+    title: "Bootstrap: ",
+    value: "75",
+  },
+  {
     title: "React.js: ",
     value: "75",
   },
