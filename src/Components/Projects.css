@@ -42,17 +42,22 @@
   justify-content: center;
   padding: 20px;
   background-color: rgba(129, 129, 129, 0.459);
-  width: 35vw;
+  width: 30vw;
   margin: 10px;
+  border-radius: 10px;
 }
 .react-player {
-  width: 20vw;
+  width: 30vw;
   height: auto;
 }
 
 .project-demo h2 {
   margin: 15px;
   color: rgb(255, 166, 0);
+  background-color: rgba(46, 46, 46, 0.815);
+  padding: 10px;
+  border-radius: 10px;
+  font-weight: 600;
 }
 .vid-buttons {
   display: flex;

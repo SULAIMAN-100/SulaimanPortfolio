@@ -14,6 +14,7 @@ body {
   display: flex;
   justify-content: flex-start;
   align-items: center;
+  margin-bottom: 0px;
 }
 .title {
   margin-left: 15vw;
@@ -21,8 +22,8 @@ body {
 
 .awesome {
   font-weight: 600;
-  animation: Color 4s linear infinite;
-  -webkit-animation: Color 4s ease-in-out infinite;
+  animation: Color 5s linear infinite;
+  -webkit-animation: Color 6s ease-in-out infinite;
 }
 
 @keyframes Color {
@@ -130,6 +131,7 @@ span {
 
 .modal-content {
   background-color: rgb(206, 206, 206);
+  width: 35vw;
 }
 
 .modal-body p img {

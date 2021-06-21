@@ -20,7 +20,12 @@ export function Home() {
     <div className="home fadeIn">
       <div className="content">
         <div className="summary">
-          <h2>ARTS & TECH</h2>
+          <h2>Hello 😎 I am Sulaiman</h2>
+
+          <h4>A Gradute Full-stack Developer</h4>
+          <a href="/about">
+            <button className="more-btn">Read More About Me</button>
+          </a>
         </div>
         <div className="fulltime">
           <div className="time"> {time}</div>

@@ -2,6 +2,7 @@ import React from "react";
 import "./About.css";
 import image from "../img/myPhoto3.jpg";
 import CV from "../img/CV.pdf";
+import { SkillsData } from "./SkillsData";
 
 const About = () => {
   return (
@@ -21,7 +22,7 @@ const About = () => {
         </div>
 
         <blockquote>
-          I am a passionate junior software developer who is fascinated by the
+          I am a passionate junior full-stack developer who is fascinated by the
           world's technology and inspired by its art and creativity. I love to
           be like a bee in a hive living and grow in a collaborative
           invironment. I have a long standing interest in technology and how to
@@ -30,6 +31,22 @@ const About = () => {
           technical skills I have already developed whilst providing me with
           opportunities to further develop and grow.{" "}
         </blockquote>
+      </div>
+      <div className="skills-container">
+        <h1>SKILLS</h1>
+        <div className="skills">
+          {SkillsData.map((item) => {
+            return (
+              <div className="single-skill">
+                <label for="file">{item.title}</label>
+
+                <progress id="file" max="100" value={item.value}>
+                  {item.value + "%"}
+                </progress>
+              </div>
+            );
+          })}
+        </div>
       </div>
     </div>
   );
