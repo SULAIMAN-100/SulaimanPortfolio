@@ -40,10 +40,8 @@ const About = () => {
               <div className="single-skill">
                 <label for="file">{item.title}</label>
 
-                <progress max="100" value="65" class="php">
-                  <div class="progress-bar">
-                    <span>65%</span>
-                  </div>
+                <progress max="100" value={item.value}>
+                  <div class="progress-bar"></div>
                 </progress>
               </div>
             );
