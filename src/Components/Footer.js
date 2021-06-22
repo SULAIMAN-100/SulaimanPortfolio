@@ -21,7 +21,7 @@ function Contact() {
           </a>
           <a
             target="_blank"
-            href="mailto:suliamansolo73505@gmail.com?subject = Feedback&body = Message"
+            href="mailto:sulaimansolo73505@gmail.com?subject = Feedback&body = Message"
           >
             <img src={Email} />
           </a>
