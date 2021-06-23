@@ -11,11 +11,11 @@ const About = () => {
         <div className="about-me">
           <img src={image} className="my-photo" />
           <div className="cv-container">
-            <button className="cv-button">
+            {/* <button className="cv-button">
               <a target="_blank" href={CV}>
                 Download My Resume
               </a>
-            </button>
+            </button> */}
 
             <h1>Who am I?</h1>
           </div>
