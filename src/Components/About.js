@@ -1,7 +1,9 @@
 import React from "react";
 import "./About.css";
 import image from "../img/myPhoto3.jpg";
+
 import CV from "../img/CV.pdf";
+
 import { SkillsData } from "./SkillsData";
 
 const About = () => {
@@ -17,7 +19,8 @@ const About = () => {
               </a>
             </button> */}
 
-            <h1>Who am I?</h1>
+            <h1>Who</h1>
+            <h1> am I?</h1>
           </div>
         </div>
 
@@ -34,15 +37,35 @@ const About = () => {
       </div>
       <div className="skills-container">
         <h1>SKILLS</h1>
-        <div className="skills">
-          {SkillsData.map((item) => {
+        <div className="catigory">
+          <h2>Front-End: </h2>
+          {SkillsData.frontEnd.map((item) => {
             return (
-              <div className="single-skill">
-                <label for="file">{item.title}</label>
-
-                <progress max="100" value={item.value}>
-                  <div class="progress-bar"></div>
-                </progress>
+              <div className="skill">
+                <img className="skill-icon" src={item.icon} />
+                <p>{item.title}</p>
+              </div>
+            );
+          })}
+        </div>
+        <div className="catigory">
+          <h2>Back-End: </h2>
+          {SkillsData.backEnd.map((item) => {
+            return (
+              <div className="skill">
+                <img className="skill-icon" src={item.icon} />
+                <p>{item.title}</p>
+              </div>
+            );
+          })}
+        </div>
+        <div className="catigory">
+          <h2>Technologies: </h2>
+          {SkillsData.tecnologies.map((item) => {
+            return (
+              <div className="skill">
+                <img className="skill-icon" src={item.icon} />
+                <p>{item.title}</p>
               </div>
             );
           })}

@@ -53,7 +53,7 @@ function Navbar() {
                   <div class="modal-body">
                     <p>
                       <img src={Tel} />
-                      Contcat Number :
+                      Mobile :
                       <a
                         target="_blank"
                         rel="norefer"
@@ -71,7 +71,7 @@ function Navbar() {
                         target="_blank"
                         href="mailto:sulaimansolo73505@gmail.com"
                       >
-                        sulaimansolo73505@gmail.com
+                        Sulaiman
                       </a>
                     </p>
                     <p>

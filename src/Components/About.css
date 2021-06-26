@@ -17,12 +17,13 @@
   align-items: center;
   padding: 20px;
   border-radius: 10px;
-  width: 50vw;
+  width: 40%;
+  height: 80%;
   background-color: rgba(160, 160, 160, 0.404);
   transition: 1s;
   background-repeat: no-repeat;
   background-position: left top;
-  margin-bottom: 60px;
+
   -webkit-animation-duration: 4s;
   animation-duration: 4s;
   -webkit-animation-fill-mode: both;
@@ -66,14 +67,14 @@ blockquote {
   display: flex;
   align-items: center;
   justify-content: center;
-  top: 0;
   width: 100%;
+  margin: 10px;
 }
 .about-me h1 {
-  font-size: 80px;
+  font-size: 6vw;
   line-height: 1;
-  margin-top: 10%;
   font-family: "Courgette", cursive;
+  font-weight: 600;
 }
 
 .my-photo {
@@ -85,7 +86,7 @@ blockquote {
   box-shadow: 0px 10px 5px grey;
 }
 
-.cv-button {
+/* .cv-button {
   padding: 10px 30px 10px 30px;
   background-color: rgb(255, 166, 0);
   border: 3px solid rgb(255, 255, 255);
@@ -104,24 +105,24 @@ blockquote {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-weight: 600;
   color: rgb(60, 64, 88);
-}
+} */
 
-.cv-container {
+/* .cv-container {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-}
+} */
 
 .skills-container {
   display: flex;
   flex-direction: column;
   margin: 20px;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   padding: 10px;
   border-radius: 10px;
-  width: 27vw;
+  width: 45%;
   background-color: rgba(160, 160, 160, 0.404);
   transition: 1s;
   margin-bottom: 60px;
@@ -134,36 +135,43 @@ blockquote {
 .skills-container h1 {
   font-weight: 600;
 }
-.single-skill {
+.catigory {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding-left: 20px;
+}
+.catigory h2 {
+  color: rgb(255, 166, 0);
+  font-weight: 600;
+  background-color: rgba(36, 36, 36, 0.856);
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.skill-icon {
+  width: 60px;
+  height: auto;
+  background-color: rgba(255, 255, 255, 0.692);
+  padding: 5px;
+  border-radius: 10px;
+}
+.skill {
+  display: flex;
+  padding: 10px;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: rgba(143, 143, 143, 0.473);
   margin: 10px;
+  border-radius: 10px;
 }
-
-.single-skill label {
-  color: rgb(218, 218, 218);
+.skill p {
   font-size: 20px;
-  margin-right: 20px;
-}
-progress[value] {
-  /* Reset the default appearance */
-  -webkit-appearance: none;
-  appearance: none;
-  width: 220px;
-  height: 20px;
-  float: right;
-}
-progress[value]::-webkit-progress-value {
-  background-image: -webkit-linear-gradient(
-      -45deg,
-      transparent 33%,
-      rgba(0, 0, 0, 0.1) 33%,
-      rgba(0, 0, 0, 0.1) 66%,
-      transparent 66%
-    ),
-    -webkit-linear-gradient(top, rgba(255, 255, 255, 0.25), rgba(0, 0, 0, 0.25)),
-    -webkit-linear-gradient(left, rgb(255, 102, 0), rgb(221, 255, 68));
-
-  border-radius: 2px;
-  background-size: 35px 20px, 100% 100%, 100% 100%;
+  margin-left: 10px;
+  font-weight: 600;
+  color: white;
 }
 @media only screen and (max-width: 850px) {
   .about-container {
@@ -191,7 +199,7 @@ progress[value]::-webkit-progress-value {
     width: 100%;
   }
   .about-me h1 {
-    font-size: 6vh;
+    font-size: 8vh;
     line-height: 1;
     margin-top: 10%;
     font-family: "Courgette", cursive;
@@ -236,5 +244,18 @@ progress[value]::-webkit-progress-value {
     animation-duration: 4s;
     -webkit-animation-fill-mode: both;
     animation-fill-mode: both;
+  }
+  .skill-icon {
+    width: 40px;
+    height: auto;
+    background-color: rgba(255, 255, 255, 0.692);
+    padding: 5px;
+    border-radius: 10px;
+  }
+  .skill p {
+    font-size: 18px;
+    margin-left: 10px;
+    font-weight: 600;
+    color: white;
   }
 }
