@@ -24,6 +24,7 @@ export function Home() {
           <h2>Hello 😎 I am Sulaiman</h2>
 
           <h4>A Gradute Full-stack Developer</h4>
+          <h5>Manchester, United Kingdom</h5>
           <Link to="/about">
             <button className="more-btn">Read More About Me</button>
           </Link>

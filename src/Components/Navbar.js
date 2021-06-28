@@ -92,7 +92,7 @@ function Navbar() {
                         target="_blank"
                         href="https://github.com/SULAIMAN-100"
                       >
-                        Visit my GitHub Profile :)
+                        Visit my GitHub profile :)
                       </a>
                     </p>
                   </div>
