@@ -1,5 +1,10 @@
 body {
-  background-image: url("https://www.capcitycreative.ca/wp-content/uploads/2018/08/design.jpg");
+  background: linear-gradient(
+    90deg,
+    rgb(75, 75, 75) 0%,
+    #585858 35%,
+    #1e1e1b 100%
+  );
   background-size: cover;
 }
 
@@ -174,7 +179,7 @@ span {
     display: none;
   }
   body {
-    background-image: url("https://www.capcitycreative.ca/wp-content/uploads/2018/08/design.jpg");
+    background-color: gainsboro;
     background-size: cover;
     overflow-y: scroll;
   }

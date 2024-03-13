@@ -23,7 +23,7 @@ export function Home() {
         <div className="summary">
           <h2>Hello 😎 I am Sulaiman</h2>
 
-          <h4>A Graduate Full-stack Developer</h4>
+          <h4>Full-stack Software Engineer</h4>
           <h5>Manchester, United Kingdom</h5>
           <Link to="/about">
             <button className="more-btn">Read More About Me</button>
