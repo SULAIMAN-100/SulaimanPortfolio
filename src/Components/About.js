@@ -2,8 +2,6 @@ import React from "react";
 import "./About.css";
 import image from "../img/myPhoto3.jpg";
 
-import CV from "../img/CV.pdf";
-
 import { SkillsData } from "./SkillsData";
 
 const About = () => {
@@ -11,14 +9,8 @@ const About = () => {
     <div class="about-container">
       <div class="about fadeIn">
         <div className="about-me">
-          <img src={image} className="my-photo" />
+          <img src={image} alt="" className="my-photo" />
           <div className="cv-container">
-            {/* <button className="cv-button">
-              <a target="_blank" href={CV}>
-                Download My Resume
-              </a>
-            </button> */}
-
             <h1>Who</h1>
             <h1> am I?</h1>
           </div>
@@ -42,7 +34,7 @@ const About = () => {
           {SkillsData.frontEnd.map((item) => {
             return (
               <div className="skill">
-                <img className="skill-icon" src={item.icon} />
+                <img className="skill-icon" alt="" src={item.icon} />
                 <p>{item.title}</p>
               </div>
             );
@@ -53,7 +45,7 @@ const About = () => {
           {SkillsData.backEnd.map((item) => {
             return (
               <div className="skill">
-                <img className="skill-icon" src={item.icon} />
+                <img className="skill-icon" alt="" src={item.icon} />
                 <p>{item.title}</p>
               </div>
             );
@@ -64,7 +56,7 @@ const About = () => {
           {SkillsData.tecnologies.map((item) => {
             return (
               <div className="skill">
-                <img className="skill-icon" src={item.icon} />
+                <img className="skill-icon" alt="" src={item.icon} />
                 <p>{item.title}</p>
               </div>
             );

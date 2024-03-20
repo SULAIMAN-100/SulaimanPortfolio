@@ -8,22 +8,31 @@ function Contact() {
   return (
     <div className="footer-container">
       <div className="footer">
-        <p>SULAIMAN@2021</p>
+        <p>SULAIMAN@2022</p>
         <div className="social">
           <a
             target="_blank"
+            rel="noreferrer"
+            alt=""
             href="https://www.linkedin.com/in/sulaiman-alhalabi-4038521b0/"
           >
-            <img src={In} />
-          </a>
-          <a target="_blank" href="https://github.com/SULAIMAN-100">
-            <img src={Github} />
+            <img src={In} rel="noreferrer" alt="" />
           </a>
           <a
             target="_blank"
+            rel="noreferrer"
+            alt=""
+            href="https://github.com/SULAIMAN-100"
+          >
+            <img src={Github} rel="noreferrer" alt="" />
+          </a>
+          <a
+            target="_blank"
+            rel="noreferrer"
+            alt=""
             href="mailto:sulaimansolo73505@gmail.com?subject = Feedback&body = Message"
           >
-            <img src={Email} />
+            <img src={Email} rel="noreferrer" alt="" />
           </a>
         </div>
       </div>

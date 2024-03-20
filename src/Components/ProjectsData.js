@@ -1,5 +1,3 @@
-import React from "react";
-
 export const ProjectsData = [
   {
     title: "Feedback Tracker App",
@@ -31,5 +29,4 @@ export const ProjectsData = [
     appLink: "https://sulaiman-cyf-hotel-project.netlify.app",
     githubLink: "https://github.com/SULAIMAN-100/cyf-hotel-react",
   },
-
 ];

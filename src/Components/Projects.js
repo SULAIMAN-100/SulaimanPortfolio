@@ -19,10 +19,10 @@ function Projects() {
               />
             </div>
             <div className="vid-buttons">
-              <a target="_blank" href={p.appLink}>
+              <a target="_blank" rel="noreferrer" href={p.appLink}>
                 <button>App Link</button>
               </a>
-              <a target="_blank" href={p.githubLink}>
+              <a target="_blank" rel="noreferrer" href={p.githubLink}>
                 <button>GitHub Code</button>
               </a>
             </div>

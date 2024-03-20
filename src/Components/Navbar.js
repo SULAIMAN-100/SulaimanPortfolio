@@ -1,6 +1,5 @@
-import React, { useState } from "react";
 import * as MdIcons from "react-icons/md";
-import { Link, Route } from "react-router-dom";
+import { Link } from "react-router-dom";
 import logo from "../img/solo.jpg";
 import { SidebarData } from "./SidebarData";
 import "./Navbar.css";
@@ -10,9 +9,6 @@ import Tel from "../img/tel.png";
 import Github from "../img/GitHub.png";
 import Email from "../img/mail.png";
 function Navbar() {
-  function toggle() {
-    window.location.reload();
-  }
   return (
     <div>
       <IconContext.Provider value={{ color: "orange" }}>
@@ -20,7 +16,6 @@ function Navbar() {
           <div className="features">
             {SidebarData.map((item, index) => {
               return (
-                // onClick={toggle}
                 <div key={index} className={item.cName}>
                   <Link to={item.path}>
                     {item.icon}
@@ -52,7 +47,7 @@ function Navbar() {
                   </div>
                   <div class="modal-body">
                     <p>
-                      <img src={Tel} />
+                      <img src={Tel} alt="" />
                       Mobile :
                       <a
                         target="_blank"
@@ -64,10 +59,10 @@ function Navbar() {
                       </a>
                     </p>
                     <p>
-                      <img src={Email} />
+                      <img src={Email} alt="" />
                       Email Me :
                       <a
-                        rel="#"
+                        rel="noreferrer"
                         target="_blank"
                         href="mailto:sulaimansolo73505@gmail.com"
                       >
@@ -75,9 +70,9 @@ function Navbar() {
                       </a>
                     </p>
                     <p>
-                      <img src={In} />
+                      <img src={In} alt="" />
                       <a
-                        rel="#"
+                        rel="noreferrer"
                         target="_blank"
                         href="https://www.linkedin.com/in/sulaiman-alhalabi-4038521b0/"
                       >
@@ -86,9 +81,9 @@ function Navbar() {
                     </p>
 
                     <p>
-                      <img src={Github} />
+                      <img src={Github} alt="" />
                       <a
-                        rel="#"
+                        rel="noreferrer"
                         target="_blank"
                         href="https://github.com/SULAIMAN-100"
                       >
@@ -116,7 +111,7 @@ function Navbar() {
           <div className="title">
             <h1 className="awesome"> Sulaiman Alhalabi</h1>
           </div>
-          <img src={logo} className="logo" />
+          <img src={logo} className="logo" alt="" />
         </div>
 
         {/* <ul className="nav-menu-items"> */}
